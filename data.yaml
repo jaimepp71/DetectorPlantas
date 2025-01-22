@@ -1,0 +1,6 @@
+path: 'Incluir la ruta de la carpeta con todos los archivos'
+train: 'Incluir la ruta donde se encuentren las imagenes de entrenamiento'
+val: 'Incluir la ruta donde se encuentren las imagenes validadas'
+
+nc: 10
+names: ['aloe_vera', 'anthurium', 'areca_palm', 'asparagus_fern', 'bellflower', 'bird_of_paradise', 'calathea', 'calendula', 'tulip', 'water_lily']
