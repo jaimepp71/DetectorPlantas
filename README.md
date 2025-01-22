@@ -1,4 +1,77 @@
-# DetectorPlantas
-En el repositorio nos encontramos con todos los archivos utilizados
-para crear el algoritmo y la aplicación para la detección de
-plantas / flores.
+# Detector de Plantas
+
+## Introducción
+<!-- Aquí puedes añadir una introducción sobre el proyecto -->
+
+## Integrantes
+<!-- Aquí puedes añadir los nombres de los integrantes del proyecto -->
+
+---
+
+## Descripción del Proyecto
+
+El **Detector de Plantas** es una aplicación diseñada para identificar especies de plantas utilizando un modelo preentrenado basado en YOLO (You Only Look Once). Este sistema es capaz de procesar imágenes y realizar detecciones rápidas y precisas, facilitando la clasificación de plantas en diversas situaciones. 
+
+El proyecto incluye código fuente bien estructurado y documentado, así como un ejecutable listo para ser utilizado, que se encuentra disponible en la sección de Releases del repositorio.
+
+---
+
+## Estructura del Proyecto
+El repositorio está organizado de la siguiente manera:
+
+- **`data/`**: Contiene información relacionada con los datos de entrada para el modelo.
+- **`runs/`**: Almacena las ejecuciones previas del modelo, incluyendo resultados.
+- **`src/`**: Carpeta principal del código fuente, que incluye los siguientes archivos:
+  - `DetectorPlantas.py`: Archivo principal que implementa la lógica del detector.
+  - `Ejecutable.py`: Código usado para generar el ejecutable.
+  - `GeneradorAlgoritmoYOLO.py`: Script para configurar y entrenar el modelo YOLO.
+  - `image_rc.py` y `Plantilla.py`: Scripts auxiliares.
+- **`weights/`**: Contiene los pesos preentrenados del modelo YOLO, como `best.pt`.
+- **`README.md`**: Este archivo, que proporciona detalles sobre el proyecto.
+- **`requeriments.txt`**: Lista de dependencias necesarias para ejecutar el proyecto.
+- **`data.yaml`**: Archivo de configuración del modelo YOLO.
+
+---
+
+## Cómo Descargar el Ejecutable
+
+El ejecutable del proyecto se encuentra en la sección de **Releases** del repositorio de GitHub. Sigue estos pasos para descargarlo:
+
+1. Accede al repositorio de GitHub.
+2. Haz clic en la pestaña **Releases**, ubicada en la parte superior del repositorio.
+   ![Imagen de la pestaña Releases](ruta_a_imagen.png)
+3. En la lista de releases, selecciona la versión más reciente (marcada como "Latest").
+4. Descarga el archivo comprimido que contiene el ejecutable (por ejemplo, `Ejecutable.zip`).
+5. Extrae el contenido del archivo descargado y ejecuta `Ejecutable.exe`.
+
+---
+
+## Instalación y Uso
+
+### Requisitos Previos
+Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes dependencias:
+
+- Python 3.8 o superior
+- Las bibliotecas especificadas en `requeriments.txt` (puedes instalarlas ejecutando `pip install -r requeriments.txt`).
+
+### Ejecución del Código Fuente
+Para ejecutar el código fuente directamente:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/DetectorPlantas.git
+   cd DetectorPlantas
+   ```
+2. Instala las dependencias:
+   ```bash
+   pip install -r requeriments.txt
+   ```
+3. Ejecuta el script principal:
+   ```bash
+   python src/DetectorPlantas.py
+   ```
+
+---
+
+## Licencia
+El proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
