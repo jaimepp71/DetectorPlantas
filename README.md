@@ -1,6 +1,4 @@
 # Detector de Plantas
-## Final report
-
 ## Introducción
 
 El **Detector de Plantas** es una aplicación diseñada para identificar especies de plantas utilizando un modelo preentrenado basado en YOLO (You Only Look Once). Este sistema es capaz de procesar imágenes y realizar detecciones rápidas y precisas, facilitando la clasificación de plantas en diversas situaciones. 
