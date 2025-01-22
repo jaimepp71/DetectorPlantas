@@ -1,19 +1,19 @@
 # Detector de Plantas
+## Final report
 
 ## Introducción
-<!-- Aquí puedes añadir una introducción sobre el proyecto -->
-
-## Integrantes
-<!-- Aquí puedes añadir los nombres de los integrantes del proyecto -->
-
----
-
-## Descripción del Proyecto
 
 El **Detector de Plantas** es una aplicación diseñada para identificar especies de plantas utilizando un modelo preentrenado basado en YOLO (You Only Look Once). Este sistema es capaz de procesar imágenes y realizar detecciones rápidas y precisas, facilitando la clasificación de plantas en diversas situaciones. 
 
 El proyecto incluye código fuente bien estructurado y documentado, así como un ejecutable listo para ser utilizado, que se encuentra disponible en la sección de Releases del repositorio.
 
+
+## Integrantes
+- Jaime Padilla Padilla
+- Fiorella Capolungo
+- Sabas Puig Batalla
+- Donato Rinaldi
+- Miguel Rodríguez Quintana
 ---
 
 ## Estructura del Proyecto
@@ -26,7 +26,7 @@ El repositorio está organizado de la siguiente manera:
   - `Ejecutable.py`: Código usado para generar el ejecutable.
   - `GeneradorAlgoritmoYOLO.py`: Script para configurar y entrenar el modelo YOLO.
   - `image_rc.py` y `Plantilla.py`: Scripts auxiliares.
-- **`weights/`**: Contiene los pesos preentrenados del modelo YOLO, como `best.pt`.
+- **`weights/`**: Contiene los pesos preentrenados del modelo YOLO bajo el nombre de `best.pt`.
 - **`README.md`**: Este archivo, que proporciona detalles sobre el proyecto.
 - **`requeriments.txt`**: Lista de dependencias necesarias para ejecutar el proyecto.
 - **`data.yaml`**: Archivo de configuración del modelo YOLO.
@@ -39,10 +39,10 @@ El ejecutable del proyecto se encuentra en la sección de **Releases** del repos
 
 1. Accede al repositorio de GitHub.
 2. Haz clic en la pestaña **Releases**, ubicada en la parte superior del repositorio.
-   ![Imagen de la pestaña Releases](ruta_a_imagen.png)
+   ![Imagen de la pestaña Releases](/img/release.png)
 3. En la lista de releases, selecciona la versión más reciente (marcada como "Latest").
-4. Descarga el archivo comprimido que contiene el ejecutable (por ejemplo, `Ejecutable.zip`).
-5. Extrae el contenido del archivo descargado y ejecuta `Ejecutable.exe`.
+4. Descarga el archivo comprimido que contiene el ejecutable (por ejemplo, `DetectorPlantas_v1.0.zip`).
+5. Extrae el contenido del archivo descargado y ejecuta `main.exe`.
 
 ---
 
@@ -68,10 +68,6 @@ Para ejecutar el código fuente directamente:
    ```
 3. Ejecuta el script principal:
    ```bash
-   python src/DetectorPlantas.py
+   python src/Ejecutable.py
    ```
 
----
-
-## Licencia
-El proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
