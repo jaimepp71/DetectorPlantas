@@ -29,9 +29,9 @@ The repository is organized as follows:
 - **`requeriments.txt`**: List of dependencies required to run the project.
 - **`data.yaml`**: YOLO model configuration file.
 
-> **Note:** Due to the large size of the `/data` directory, it is available as a downloadable compressed file at the following link:
+> **Note:** The images used to train the algorithm can be found at the following OneDrive link:
 ```plaintext
-   https://upm365-my.sharepoint.com/:u:/g/personal/jaime_padilla_alumnos_upm_es/EZeKEN932NNMvo0fmTVM1hUBM6K-UH87eoONl2YC9ZZAhA?e=98Xr5W
+   https://upm365-my.sharepoint.com/:u:/g/personal/jaime_padilla_alumnos_upm_es/ERqjuw_VVjlBqhy6jH5ZmeQB1Hh2zZHiOjmRSKRmWmAm7g?e=0Xcwrv
    ```
 ---
 
