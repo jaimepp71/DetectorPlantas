@@ -4,19 +4,12 @@
 
 El **Detector de Plantas** es una aplicación diseñada para identificar especies de plantas utilizando un modelo preentrenado basado en YOLO (You Only Look Once). Este sistema es capaz de procesar imágenes y realizar detecciones rápidas y precisas, facilitando la clasificación de plantas en diversas situaciones. 
 
-El proyecto incluye código fuente bien estructurado y documentado, así como un ejecutable listo para ser utilizado, que se encuentra disponible en la sección de Releases del repositorio.
-
-
 ## Integrantes
 - Jaime Padilla Padilla
 - Fiorella Capolungo
 - Sabas Puig Batalla
 - Donato Rinaldi
 - Miguel Rodríguez Quintana
-
----
-
-## Descripción del Proyecto
 
 ---
 
@@ -36,6 +29,10 @@ El repositorio está organizado de la siguiente manera:
 - **`requeriments.txt`**: Lista de dependencias necesarias para ejecutar el proyecto.
 - **`data.yaml`**: Archivo de configuración del modelo YOLO.
 
+> **Nota:** Debido al peso del contenido del directorio `/data`, este se encuentra en un comprimido descargable en el siguiente enlace:
+```plaintext
+   https://upm365-my.sharepoint.com/:u:/g/personal/jaime_padilla_alumnos_upm_es/EZeKEN932NNMvo0fmTVM1hUBM6K-UH87eoONl2YC9ZZAhA?e=98Xr5W
+   ```
 ---
 
 ## Cómo Descargar el Ejecutable
