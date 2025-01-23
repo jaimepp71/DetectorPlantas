@@ -24,7 +24,6 @@ The repository is organized as follows:
   - `GeneradorAlgoritmoYOLO.py`: Script for configuring and training the YOLO model.
   - `image_rc.py` y `Plantilla.py`: Auxiliary scripts.
 - **`weights/`**: Contains the YOLO pre-trained weights, such as `best.pt`.
-- **`testdata/`**: Folder with a variety of plant images to test the trained model.
 - **`README.md`**: This file, providing details about the project.
 - **`requeriments.txt`**: List of dependencies required to run the project.
 - **`data.yaml`**: YOLO model configuration file.
