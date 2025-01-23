@@ -45,7 +45,7 @@ The project executable is available in the **Releases** section of the GitHub re
    ![Imagen de la pestaña Releases](/img/release.png)
    
 3. In the list of releases, select the latest version (marked as "Latest").
-4. Download the compressed file containing the executable (`PlantDetector_v1.0.zip`).
+4. Download the compressed file containing the executable (`DetectorPlantas_v1.0.zip`).
 5. Extract the contents of the downloaded file and run `main.exe`.
 
 > **Note:** The compressed file also contains the `testdata/` directory, which includes a collection of plant images that can be used for quick testing and validation of the trained model.
