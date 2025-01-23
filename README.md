@@ -42,6 +42,8 @@ El ejecutable del proyecto se encuentra en la sección de **Releases** del repos
 4. Descarga el archivo comprimido que contiene el ejecutable (por ejemplo, `DetectorPlantas_v1.0.zip`).
 5. Extrae el contenido del archivo descargado y ejecuta `main.exe`.
 
+> **Nota:** Dentro del comprimido se incluye la carpeta `testdata`, la cual contiene una colección de imágenes de plantas que pueden utilizarse para realizar pruebas rápidas y validar el modelo entrenado.
+
 ---
 
 ## Instalación y Uso
