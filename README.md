@@ -25,8 +25,8 @@ The repository is organized as follows:
   - `image_rc.py` y `Plantilla.py`: Auxiliary scripts.
 - **`weights/`**: Contains the YOLO pre-trained weights, such as `best.pt`.
 - **`README.md`**: This file, providing details about the project.
-- **`requeriments.txt`**: List of dependencies required to run the project.
 - **`data.yaml`**: YOLO model configuration file.
+- **`requeriments.txt`**: List of dependencies required to run the project.
 
 > **Note:** The images used to train the algorithm can be found at the following OneDrive link:
 ```plaintext
